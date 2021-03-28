@@ -21,4 +21,6 @@ public class Greet {
 //        oll=s;
         return new Greeting(id.incrementAndGet(),String.format(msg,nm,s),s);
     }
+	
+	
 }
