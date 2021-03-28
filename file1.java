@@ -14,7 +14,7 @@ public class Greet {
 
 
 
-
+//---------------------------------------------------------------------------//
 
     @GetMapping("/greet")
     Greeting greet(@RequestParam(name="nm",defaultValue = "World!") String nm, @RequestParam(name="s",required = false) Character s){
