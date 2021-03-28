@@ -12,9 +12,7 @@ public class Greet {
     private String msg= "Hello, %s%s";
     private AtomicLong id= new AtomicLong();
 
-
-
-
+//random comment
 
     @GetMapping("/greet")
     Greeting greet(@RequestParam(name="nm",defaultValue = "World!") String nm, @RequestParam(name="s",required = false) Character s){
